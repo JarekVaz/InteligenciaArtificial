@@ -1,0 +1,76 @@
+# Entornos virtuales de Python
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Archivos de configuración local
+.env
+.vscode/settings.json
+.idea/
+
+# Modelos de Machine Learning (archivos grandes)
+*.h5
+*.pkl
+*.pickle
+*.joblib
+*.model
+
+# Datasets grandes (opcional - comentar si quieres versionar algunos datasets)
+# *.csv
+# *.json
+# *.txt
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+
+# Logs
+*.log
+logs/
+
+# Archivos de respaldo
+*.bak
+*.backup
+*~
+
+# Archivos de configuración específicos del usuario
+config.ini
+settings.conf
+
+# Carpetas de salida temporales
+output/
+temp/
+tmp/
